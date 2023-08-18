@@ -11,17 +11,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem
+    padding: 1rem;
+    box-shadow: 1px 5px  rgba(0, 0, 0, 0.2);
 }
 
 .navbar{
     display: flex;
     align-items:center;
 }
-.navbar-items{
+.navbar-items, a{
     color: white;
     list-style: none;
-    padding: 0.7rem;
+    margin: 0.5rem;
+    transition: 0.3;
+    text-decoration: none;
     
 }
 
@@ -59,7 +62,7 @@
 .contenido-principal{
     display: flex;
     justify-content: space-around;
-    margin: 4rem;
+    margin: 3rem;
     gap: 1.5rem
     
 }
